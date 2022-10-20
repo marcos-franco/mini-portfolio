@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./imagens/favicon-32x32.png" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css" />
+		<link rel="stylesheet" href="./src/css/rolagem.css" />
+		<link rel="stylesheet" href="./src/css/estilos.css" />
+
+		<title>Projeto Mini Portfólio - MapaDev Week</title>
+	</head>
+	<body>
+		<main class="cartao">
+			<div class="minhas-informacoes">
+				<img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil"/>
+				<h1 class="nome">Marcos Franco</h1>
+				<h2 class="cargo">Desenvolvedor Front-End Júnior</h2>
+			</div>
+
+			<div class="conteudo">
+				<ul class="abas">
+					<li class="aba selecionado" id="sobre-mim">
+						<img src="./src/imagens/sobre.gif" alt="ícone de sobre mim" />
+					</li>
+
+					<li class="aba" id="minhas-redes">
+						<img src="./src/imagens/coracao.gif" alt="ícone de redes sociais" />
+					</li>
+				</ul>
+
+				<div class="informacoes-abas">
+					<div class="informacao selecionado" id="informacao-sobre-mim">
+						<h3 class="sub-titulo">Sobre mim</h3>
+						<div class="descricao">
+							<p>Oi! meu nome é Marcos Franco, seja bem-vindo(a)!</p>
+
+							<p>
+								Sou formado em Engenharia Civil, pelo Centro Universitário Augusto Motta - UNISUAM. 
+								Me considero uma pessoa dedicada, sempre disposto a aprender, gosto muito da área de Tecnologia e estou sempre em busca de novos conhecimentos.
+								Trabalhei em empresas de engenharia como projetista, gestor de equipe, e em seguida, no setor comercial. 
+								No momento estou em transição de carreira para a área de Tecnologia, focado na minha formação como Front-End Developer.
+								<span>Tecnologias: HTML, CSS, JavaScript, React, Git e GitHub.</span>
+								Meus principais hobbies são, fazer caminhada, viajar e maratonar séries.
+							</p>
+						</div>
+					</div>
+					<div class="informacao" id="informacao-minhas-redes">
+						<h3 class="sub-titulo">Minhas Redes</h3>
+						<ul class="redes-sociais">
+							<li>
+								<a href="https://marcos-franco.github.io/curriculum-vitae-marcosfranco/" target="_blank" class="curriculo">Currículo</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/marcosfranco-5b1a8a111/" target="_blank" class="linkedin">Linkedln</a>
+							</li>
+							<li>
+								<a href="https://github.com/marcos-franco" target="_blank" class="github">GitHub</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
