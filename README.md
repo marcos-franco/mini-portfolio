@@ -7,7 +7,7 @@ Projeto de um mini portfólio para desenvolvedores iniciantes, com informações
 Projeto desenvolvido no evento MapaDev Week.
 
 
-[🔗 Clique aqui para acessar](https://marcos-franco.github.io/mini-portfolio/)
+[🔗 Clique aqui para acessar o site Mini Portfólio](https://marcos-franco.github.io/mini-portfolio/)
 
 ## Font family para utilização
 
